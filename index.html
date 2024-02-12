@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript" src="js/javascript.js"></script>
+  <title>
+    Home Page
+  </title>
+</head>
+<style>
+  .about-us,
+  .special-offers {
+    background-color: #f8f8f8;
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  .about-us h1,
+  .special-offers h1 {
+    color: var(--primary-color);
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .card-content {
+    padding: 20px;
+  }
+
+  .card h2 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+  }
+
+  .card p {
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 1.4;
+  }
+</style>
+
+<body>
+  <div class="topbar">
+    <button id="switch" onclick="myFunction()">Grey/dark mode</button>
+  </div>
+  <div class="topnav">
+    <a href="menu.html">Menu</a>
+    <a href="#about-us">About Us</a>
+    <a href="#special-offers">Special Offers</a><br />
+  </div>
+  <div class="header">
+    <a href="index.html">
+      <img src="img/logo.png" id="logo" class="logo">
+    </a>
+  </div>
+
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1>Welcome to Pietro's Restaurant</h1>
+      <p>Indulge in the flavors of Italy</p>
+      <button class="button" href="#">Book a table now</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column-left">
+      <p>
+        <img class="column-image" src="img/pasta-making.jpg">
+      </p>
+    </div>
+    <div class="column-right">
+      <h1>Hand-made pasta</h1>
+      <p class="column-paragraph">
+        At Pietro's, pasta is not just a dish; it's a journey through time. Our pasta is hand-made, blending the most
+        modern research with ancient traditions. Crafted with care and using special flours and pasta-making techniques,
+        each bite ensures a healthy and delicious experience.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column-right">
+      <p>
+        <img class="column-image" src="img/restaurant.jpg">
+      </p>
+    </div>
+    <div class="column-left">
+      <p class="column-paragraph">
+      <h1>A cozy atmosphere</h1>
+      Experience the warmth of our restaurant's cozy yet stylish atmosphere. Whether it's a friendly reunion, a romantic
+      dinner, or a family celebration, Pietro's offers a range of experiences to meet all your dining needs.
+      </p>
+    </div>
+  </div>
+
+  <!-- About Us Section -->
+  <div class="about-us" id="about-us">
+    <h1>About Us</h1>
+    <div class="row">
+      <div class="column-left">
+        <p>
+          <img class="column-image" src="img/pasta-making.jpg">
+        </p>
+      </div>
+      <div class="column-right">
+        <h2>Our Story</h2>
+        <br><br>
+        <p class="column-paragraph">
+          Discover the rich history and passion behind Pietro's Restaurant. From our hand-made pasta to the cozy
+          atmosphere, we strive to provide an unforgettable Italian dining experience.
+          <br><br>
+          Every dish tells a story - a tale of dedication, creativity, and a commitment to excellence. Our journey began
+          with a vision to create a haven for those who appreciate not just a meal, but an experience. From the moment
+          you step through our doors, you embark on a gastronomic adventure curated with love and precision.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Special Offers Section -->
+  <div class="special-offers" id="special-offers">
+    <h1>Special Offers</h1>
+    <div class="card-container">
+      <!-- Special Offer 1 -->
+      <div class="card">
+        <img src="img/offer.avif" alt="Special Offer 1">
+        <div class="card-content">
+          <h2>Early Bird Dinner</h2>
+          <br><br>
+          <p>
+            Enjoy a 20% discount on all dinner menu items when you dine with us before 6:00 PM. Valid from Monday to
+            Thursday.
+          </p>
+        </div>
+      </div>
+
+      <!-- Special Offer 2 -->
+      <div class="card">
+        <img src="img/offer.avif" alt="Special Offer 2">
+        <div class="card-content">
+          <h2>Weekend Family Feast</h2>
+          <p>
+            Treat your family to a delightful weekend feast. Get a complimentary dessert platter for every family meal
+            purchase.
+          </p>
+        </div>
+      </div>
+
+      <!-- Add more special offers as needed -->
+    </div>
+  </div>
+
+</body>
+
+</html>

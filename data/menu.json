@@ -1,0 +1,71 @@
+{"menu": [
+        {
+            "id": "1",
+            "name": "Cheese filled ravioli",
+            "type": "Food",
+            "sub-type": "Pasta",
+            "course": "Main",
+            "description" : "Delicious cheese filled Pasta in tomato and basil sauce",
+            "price" : 15.95
+        },
+        {
+            "id": "2",
+            "name":"Fettucine Alfredo",
+            "type": "Food",
+            "sub-type": "Pasta",
+            "course": "Main",
+            "description" : "Hand-made fettuccine in a creamy classic Alfredo sauce",
+            "price" : 14.95,
+            "related_wine" : "7"
+        },   
+        {
+            "id": "3",
+            "name":"Veal brasato",
+            "type": "Food",
+            "sub-type": "Meat",
+            "course": "Main",
+            "description" : "Tender boneless veal shoulder cuts marinated in red wine and slow-cooked with italian herbs",
+            "price" : 19.95,
+            "related_wine" : "5"
+        },  
+        {
+            "id": "4",
+            "name":"Chicken parmigiana",
+            "type": "Food",
+            "sub-type": "Meat",
+            "course": "Main",
+            "description" : "Layers of thin-sliced lightly pan-fried chicken breast baked with tomato sauce and mozzarella cheese",
+            "price" : 17.95,
+            "related_wine" : "6"
+        },
+
+        {
+            "id": "5",
+            "name":"Chianti classico",
+            "type": "Drink",
+            "sub-type": "wine",
+            "category": "red",
+            "description" : "A limpid ruby red wine with floral notes, dry and sapid flavor, from the Chianti hills of Tuscany",
+            "price" : 35
+        },
+        {
+            "id": "6",
+            "name":"Pinot Noir",
+            "type": "Drink",
+            "sub-type": "wine",
+            "category": "red",
+            "description" : "A medium body, medium-dry red with earthy flavor from the french region of Burgundy",
+            "price" : 24
+        },  
+
+        {
+            "id": "7",
+            "name":"Chardonnay",
+            "type": "Drink",
+            "sub-type": "wine",
+            "category": "white",
+            "description" : "A dry, full-bodied white wine with moderate acidity, made with Chardonnay grapes from the french region of Burgundy",
+            "price" : 26
+        }
+    ]
+}

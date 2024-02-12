@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript" src="js/javascript.js"></script>
+  <title>
+    Home Page
+  </title>
+</head>
+<style>
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+  }
+
+  #menu-container {
+    text-align: center;
+    margin-left: 70px;
+  }
+
+  .menu-section {
+    display: inline-block;
+    width: 40%;
+    /* Adjust the width as needed */
+    margin: 10px auto;
+    /* Center the menu sections */
+  }
+
+  /* Style the menu tables */
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 10px auto;
+    /* Center the table horizontally */
+    margin-top: 10px;
+  }
+
+  th,
+  td {
+    padding: 12px;
+
+    text-align: center;
+  }
+
+
+
+  /* Additional styles for better readability */
+  h1,
+  h2 {
+    color: var(--primary-color);
+  }
+</style>
+
+<body>
+  <div class="topbar">
+    <button id="switch" onclick="myFunction()">Grey mode</button>
+  </div>
+  <div class="topnav">
+    <a href="">Menu</a>
+    <a href="index.html#about-us">About Us</a>
+    <a href="index.html#special-offers">Special Offers</a>
+  </div>
+  <div class="header">
+    <a href="index.html">
+      <img src="img/logo.png" id="logo" class="logo" width=30%>
+    </a>
+  </div>
+
+  <div id="food-menu" class="onecolumn">
+    <h1> Menu </h1>
+    <hr>
+    <h2> Food </h2>
+  </div>
+  <div id="drinks-menu" class="onecolumn">
+    <h2> Drinks </h2>
+  </div>
+
+</body>
+
+</html>
